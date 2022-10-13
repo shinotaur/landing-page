@@ -1,0 +1,133 @@
+* {
+  /*background-color: skyblue;*/ 
+}
+body {
+  text-align: center;
+  font-family: 'Roboto', arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1f2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
+}
+
+.hlinks {
+  display: flex;
+  color: white;
+  padding-left: 70%;
+  justify-content: space-evenly;
+}
+
+.hlinks a{
+   color: white;
+   margin: 10px;
+   text-decoration: none;
+ }
+
+.title{
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+ .signup{
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   align-items: center;
+}
+
+.signup button{
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Roboto", "arial";
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info{
+  align-items: center;
+}
+
+.content-info{
+  display: flex;
+  color: black;
+  padding: 10%;
+  justify-content: space-evenly;
+}
+
+.content-info img{
+  height: 320px;
+  width: 320px;
+}
+
+.quote{
+  padding: 5%;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "Roboto";
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  }
+
+.quote strong{
+    padding-left: 50%;
+}
+
+.signs{
+ margin: 10px 300px;
+ padding: 10px 80px;
+ display: flex;
+ align-items:center;
+ border-radius: 5px;
+ background-color: #3b82f6;
+}
+
+.signstxt{
+  font: "Roboto";
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+.signitem{
+  flex: 1;
+}
+.signitem button{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight:700;
+  margin-left: 50%;
+  background-color: #3b82f6;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.footer{
+  color: white;
+  background-color: #1f2937;
+  align-items: center;
+}
